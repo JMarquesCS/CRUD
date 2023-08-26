@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.cabecalho{
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+table{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+th{
+    border: 1px solid;
+}
+.id{
+    max-width: 30px;
+    min-width: 30px;
+}
+.titulo{
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.descricao{
+    max-width: 650px;
+    min-width: 650px;
+    overflow: hidden;
+}
+.btn_edit{
+    padding: 1.6px;
+    text-decoration: none;
+    color: blue;
+    margin: 0;
+}
+.btn_delet{
+    padding: 1.4px;
+    text-decoration: none;
+    color: red;
+}
+
+.btn_add{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+}
+
+.btn_add:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.acoes{
+    
+    max-width: 100px;
+    min-width: 100px;
+}
+
+tr{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+ td{
+    overflow: hidden;
+    border: 1px solid;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.form-label{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 10px 20px;
+    text-decoration: none;
+    border:1px solid;
+    color: white;
+    font-size: 15px;
+    font-weight: 10px;
+}
+
+.btnSave {
+    padding: 10px 15px;
+    background-color: rgb(8, 200, 8);
+    border-radius: 5px;
+    max-width: 80px;
+    min-width: 80px;
+    cursor: pointer;
+}
+.btnSave:hover{
+    background-color: rgb(8, 254, 8);
+}
+
+.btnCancel{
+    padding: 10px 15px;
+    background-color: rgb(8, 8, 216);
+    border-radius: 5px;
+    max-width: 80px;
+    min-width: 80px;
+}
+
+.btnCancel:hover{
+    background-color: rgb(60, 60, 239);
+}
+
+
+.btnSubmit{
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color:rgb(8, 200, 8);
+    border-radius: 5px;
+    max-width: 80px;
+    min-width: 80px;
+}
+.btnSubmit:hover{
+    background-color: rgb(8, 254, 8);
+}
+
+
+
+.divForm{
+    width:30vw; 
+    min-width:300px;
+
+}
+
+.hide{
+    display: none;
+}
+.btnVoltar{
+    margin: 90px;
+}
