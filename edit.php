@@ -64,8 +64,8 @@ if (isset($_POST["submit"])) {
           </div>
         </div>
         <div class="btnDiv">
-          <button requerid type="submit" class="btn btn-success btnSubmit" name="submit">Update</button>
-          <a href="index.php" class="btn btn-danger btnCancel">Cancel</a>
+          <button requerid type="submit" class="btn btn-success btnSubmit" name="submit">Editar</button>
+          <a href="index.php" class="btn btn-danger btnCancel">Cancelar</a>
         </div>
       </form>
     </div>
